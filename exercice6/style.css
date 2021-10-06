@@ -1,0 +1,78 @@
+.conteneur1
+{
+    display: flex;
+}
+.conteneur2
+{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.conteneur3
+{
+    display: flex;
+    flex-wrap: nowrap
+}
+.conteneur4
+{
+    display: flex-end;
+}
+.Carre1
+{
+    background-color :green ;
+       width: 80vw; 
+       height: 10vh;
+}
+.Carre2
+{
+    background-color : blue ;
+    width: 20vw; 
+    height: 10vh;
+}
+.Carre3
+{
+    background-color : red ;
+    width: 33vw; 
+    height: 10vh;
+}
+.Carre4
+{
+    background-color : orange ;
+    width: 33vw; 
+    height: 10vh;
+}
+.Carre5
+{
+    background-color : grey ;
+    width: 33vw; 
+    height: 10vh;
+}
+.Carre6
+{
+    background-color : red ;
+    width: 25vw; 
+    height: 10vh;
+}
+.Carre7
+{
+    background-color :orange ;
+    width: 25vw; 
+    height: 10vh;
+}
+.Carre8
+{
+    background-color :green ;
+    width: 25vw; 
+    height: 10vh;
+}
+.Carre9
+{
+    background-color : brown ;
+    width: 25vw; 
+    height: 10vh;
+}
+.Carre10
+{
+    background-color : black ;
+    width: 100vw; 
+    height: 40vh;
+}
