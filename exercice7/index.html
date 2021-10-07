@@ -1,0 +1,100 @@
+<!DOCTYPE html5>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <title>exercice 7</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <form action="" method="get" novalidate>
+        <fieldset class="Votre-identite">
+            <legend class="Votre-identite">Votre-identite</legend>
+            <ol>
+
+                <li>
+                    <label for="name">Nom :</label>
+                    <input type="text" id="name" name="name" placeholder="Nom" required>
+                </li>
+
+                <li>
+                    <label for="surname">Prénom :</label>
+                    <input type="text" id="surname" name="surname" placeholder="Prénom" required>
+                </li>
+
+                <li>
+                    <label for="email">Adresse mail :</label>
+                    <input type="email" id="mail" name="mail" placeholder="Adresse mail" required>
+                </li>
+            </ol>
+        </fieldset>
+
+        <fieldset class="Adresse-de-livraison
+        ">
+            <legend class="Adresse-de-livraison">Adresse-de-livraison</legend>Adresse de livraison</legend>
+            <ol>
+
+                <li>
+                    <label for="adresse">adresse :</label>
+                    <textarea id="adresse" name="adresse" rows="3" cols="33"></textarea>
+                </li>
+
+                <li>
+                    <label for="codepostal">code postale :</label>
+                    <input maxlength="5" type="text" id="codepostal" name="codepostal" placeholder="Code postal"
+                        required>
+                </li>
+
+                <li>
+                    <label for="Ville">Ville :</label>
+                    <input type="text" id="-ville" name="-ville" placeholder="Ville" required>
+                </li>
+            </ol>
+        </fieldset>
+
+        <fieldset class="Informations-de-réglement">
+            <legend class="Informations-de-réglement">Informations de réglement</legend>
+            <ol>
+
+                <li>
+                    <label>Type de carte bancaire :</label>
+                    <div>
+                        <input type="radio" name="type-card" id="type-visa" value="VISA">
+                        <label for="type-visa">VISA</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="type-card" id="type-cb" value="Mastercard">
+                        <label for="type-cb">Mastercard</label>
+                    </div>
+                </li>
+
+                <li>
+                    <label for="numcarte">Numéro de carte :</label>
+                    <input type="text" id="-numcarte" name="numcarte" placeholder="Numéro de carte" required>
+                </li>
+
+                <li>
+                    <label for="codesecu">Code de sécurité :</label>
+                    <input type="text" id="codesecu" name="codesecu" placeholder="Code de sécurité" required>
+                </li>
+
+                <li>
+                    <label for="nomtitutlaire">Nom du titulaire :</label>
+                    <input type="text" id="nomtitulaire" name="nomtitulaire" placeholder="Nom du titulaire" required>
+                </li>
+        </fieldset>
+
+        <div>
+            <input type="submit" value="J'achète !">
+        </div>
+    </form>
+    <!-- 
+                <div class="button">
+                    <button type="submit">J'achète !</button>
+                </div> -->
+
+</body>
+
+</html>
