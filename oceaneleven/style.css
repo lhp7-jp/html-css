@@ -1,0 +1,67 @@
+.title
+{
+    text-shadow: 2px 2px 5px violet;
+    color: blue;
+    text-align: center;
+}
+
+/* p, 
+h2,
+h3
+{
+    text-align: center;
+}
+  */
+.page
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card
+{
+    border: 1px solid grey;
+    color: chartreuse;
+    width: 18rem;
+    border-radius: 10px;
+    box-shadow: 4px 4px 2px gray;
+    background-color: chocolate;
+    margin : 1rem
+}
+.card-body
+{
+    height: 15rem;
+    border: 1px solid black;
+}
+.card-img
+{
+    height: 50%;
+    max-height: 100%;
+    width: 100%;
+    max-height: 50%;
+    text-align: center
+}
+
+.card-header 
+{
+    height: 3rem;
+    text-align: center;
+}
+
+.card-footer
+{
+    height: 5rem;
+    text-align: center;
+}
+
+.card-footer p{
+text-align: right;
+padding-right: 0.5rem;
+}
+
+.card-footer a{
+    text-decoration: none;
+    color: black;
+}
+
+
